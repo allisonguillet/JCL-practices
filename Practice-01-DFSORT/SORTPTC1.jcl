@@ -1,8 +1,7 @@
-//ORDEN01A JOB (ACCT),NOTIFY=&SYSUID
+//ORDEN01A JOB (ACCT),'DFSORT PRACTICE',
+//             CLASS=A,MSGCLASS=X,NOTIFY=&SYSUID
 //**********************************************************************
-//* PRACTICA 1: ORDENAMIENTO DE REGISTROS CON DFSORT                   *
-//* Ordenar el archivo por el numero de tarjeta de forma ascendente    *
-//* y por monto de forma descendente.                                  *
+//* PRACTICE 1: RECORD SORTING WITH DFSORT                             *
 //**********************************************************************
 //SORT     EXEC PGM=SORT
 //SYSOUT   DD SYSOUT=*

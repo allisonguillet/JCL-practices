@@ -1,15 +1,19 @@
-# Practice 1: Dataset Sorting using DFSORT
+# JCL Practices: Practice 1 - Dataset Sorting using DFSORT
 
-## 📌 Job Overview
+## 📋 Job Overview
 JCL Job executing IBM's **DFSORT** utility to process and sort a transactional dataset in ascending order, using the leading character positions of each record as the sort key.
 
 ---
 
 ## ⚙️ Technical Specifications
-* **Utility:** DFSORT (`PGM=SORT`)
+* **Utility:** DFSORT (Data Facility Sort) (`PGM=SORT`)
 * **Sort Logic:** `SORT FIELDS=(1,10,CH,A)` (Sorts by the first 10 characters in ascending order).
+    - SORT FIELDS=(pos1,len1,CH,A,pos2,len2,ZD,D)
+    - Card Number: Character (CH), Ascending (A).
+    - Amount: Zoned Decimal (ZD) or Character (CH), Descending (D).
 * **Dataset Organization:** FB (Fixed Block), `LRECL=80`.
 * Z##### represents the user's High-Level Qualifier (HLQ). Replace it with your specific Mainframe User ID / HLQ.
+
 ---
 
 ## 📥 Input Dataset
@@ -25,3 +29,11 @@ JCL Job executing IBM's **DFSORT** utility to process and sort a transactional d
 9698923546 2026-03-18 00015000 MXN APROBADA
 6662355544 2026-04-30 00007000 USD RECHAZADA
 7894516330 2026-07-11 00900500 MXN FRAUDE
+```
+
+--- 
+
+🚀 Execution & Verification                                                                                        
+1. Submit the job via VS Code using Zowe Explorer or TSO/ISPF submit command.                                      
+2. Check SDSF to ensure the job completed successfully with return code CC 0000.                                   
+3. Inspect the output dataset member Z80256.OUTPUT(CREDOUT2) to verify that only the filtered records were written.
