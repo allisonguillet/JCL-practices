@@ -9,11 +9,11 @@ JCL Job executing IBM's **DFSORT** utility to process and sort a transactional d
 * **Utility:** DFSORT (`PGM=SORT`)
 * **Sort Logic:** `SORT FIELDS=(1,10,CH,A)` (Sorts by the first 10 characters in ascending order).
 * **Dataset Organization:** FB (Fixed Block), `LRECL=80`.
-
+* Z##### represents the user's High-Level Qualifier (HLQ). Replace it with your specific Mainframe User ID / HLQ.
 ---
 
 ## 📥 Input Dataset
-* **DSN:** `Z80256.INPUT(TRANSCRD)`
+* **DSN:** `Z#####.INPUT(TRANSCRD)`
 * **Record Example:**
 ```text
 1234567890 2026-01-21 00015000 MXN APROBADA
