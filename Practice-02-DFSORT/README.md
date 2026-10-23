@@ -5,7 +5,6 @@ This practice demonstrates how to use **IBM DFSORT** in z/OS to **filter records
 
 ---
 
-🛠️ 
 ## ⚙️ Technical Specifications
 
 * PGM=SORT: Invokes the standard IBM DFSORT utility.
