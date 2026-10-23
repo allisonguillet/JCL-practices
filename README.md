@@ -30,3 +30,11 @@ The goal of this repository is to document practical implementations of batch da
 **Mainframe & Systems Developer**
 - GitHub: [(https://github.com/allisonguillet)]
 - LinkedIn: [www.linkedin.com/in/allison-guillet-loera-salinas-378825195]
+
+
+
+---                                    
+                                                                        
+## SOME CONCEPTS                                                        
+                                       
+![PHYSICAL DASD STRUCTURE](image-1.png)

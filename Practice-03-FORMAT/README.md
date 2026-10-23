@@ -37,3 +37,6 @@ This practice demonstrates a complete multi-step **IBM DFSORT** pipeline in z/OS
 1. Submit the job (FORMAT01) via VS Code using Zowe Explorer or TSO/ISPF SUBMIT.
 2. Check SDSF to ensure the job completed successfully with return code CC 0000.
 3. Inspect the output datasets Z80256.OUTPUT.CREDOUT2 (filtered records) and Z80256.OUTPUT.FRMTOUT1 (final formatted output).
+
+
+![OUTREC](image.png)

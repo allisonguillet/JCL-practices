@@ -42,4 +42,7 @@ This practice demonstrates how to use **IBM DFSORT** in z/OS to **filter records
 2. Check SDSF to ensure the job completed successfully with return code CC 0000.
 3. Inspect the output dataset member Z80256.OUTPUT(CREDOUT2) to verify that only the filtered records were written.
 
-![PHYSICAL DASD STRUCTURE](image-1.png)
+
+![INCLUDE COND](image-2.png)
+
+![OPERATORS AND CONDITIONS](image-3.png)

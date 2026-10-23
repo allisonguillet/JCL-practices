@@ -37,3 +37,5 @@ JCL Job executing IBM's **DFSORT** utility to process and sort a transactional d
 1. Submit the job via VS Code using Zowe Explorer or TSO/ISPF submit command.                                      
 2. Check SDSF to ensure the job completed successfully with return code CC 0000.                                   
 3. Inspect the output dataset member Z80256.OUTPUT(CREDOUT2) to verify that only the filtered records were written.
+
+![SORT FIELDS](image.png)
