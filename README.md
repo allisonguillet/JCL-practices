@@ -35,6 +35,7 @@ The goal of this repository is to document practical implementations of batch da
 
 ---                                    
                                                                         
-## SOME CONCEPTS                                                        
+## IMPORTANT CONCEPTS                  
+
+![PHYSICAL DASD STRUCTURE](pdadstructure.jpg)
                                        
-![PHYSICAL DASD STRUCTURE](image-1.png)
