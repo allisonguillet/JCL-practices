@@ -21,7 +21,7 @@ The goal of this repository is to document practical implementations of batch da
 | **Practice 01** | Basic Sort Selection | `SORT FIELDS=(1,10,CH,A)`, Basic Sort | [View Details](./Practice-01-DFSORT/) |
 | **Practice 02** | Basic Record Selection | `SORT FIELDS=COPY`, Basic Filtering | [View Details](./Practice-02-DFSORT/) |
 | **Practice 03** | Multi-Step Pipeline & Formatting | Dataset Cleanup (`IEFBR14`), `INCLUDE COND`, `OUTREC` | [View Details](./Practice-03-FORMAT/) |
-| **Practice 04** | Combining Datasets (UNION) | Multiple `SORTIN` DDs, `MERGE FIELDS=COPY` | [View Details](./practice-04/) |
+| **Practice 04** | Combining Datasets (UNION) | Multiple `SORTIN` DDs, `MERGE FIELDS=COPY` | [View Details](./Practice-04-UNION/) |
 
 > *More practices will be added as new JCL workflows and mainframe utilities are implemented.*
 
