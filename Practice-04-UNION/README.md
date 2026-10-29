@@ -1,4 +1,3 @@
-Markdown
 # JCL Practices: Combining Datasets Using DFSORT UNION (MERGE FIELDS=COPY)
 
 ## 📋 Job Overview
