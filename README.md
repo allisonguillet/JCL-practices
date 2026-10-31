@@ -23,6 +23,8 @@ The goal of this repository is to document practical implementations of batch da
 | **Practice 03** | Multi-Step Pipeline & Formatting | Dataset Cleanup (`IEFBR14`), `INCLUDE COND`, `OUTREC` | [View Details](./Practice-03-FORMAT/) |
 | **Practice 04** | Combining Datasets (UNION) | Multiple `SORTIN` DDs, `MERGE FIELDS=COPY` | [View Details](./Practice-04-UNION/) |
 | **Practice 05** | Removing Duplicates | `SORT FIELDS`, `SUM FIELDS=NONE` | [View Details](./Practice-05-SUMFIELD/) |
+| **Practice 06** | Merging & Joining Datasets | `JOINKEYS`, `REFORMAT`, `INREC` | [View Details](./Practice-06-JOINKEYS/)|
+| **Practice 07** | Arithmetic & Record Reformatting | `OUTREC`, ADD, ZD Data Format | [View Details](./Practice-07-OUTREC/) |
 
 > *More practices will be added as new JCL workflows and mainframe utilities are implemented.*
 
